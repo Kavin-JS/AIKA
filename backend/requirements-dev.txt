@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# dev/test/lint tooling — installed in CI and local dev venvs, never in
+# the runtime image (see Dockerfile, which installs requirements.txt only)
+pytest==8.3.3
+httpx==0.27.2
+ruff==0.6.9
+mypy==1.11.2

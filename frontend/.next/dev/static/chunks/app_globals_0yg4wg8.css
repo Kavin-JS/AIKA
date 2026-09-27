@@ -1,0 +1,25 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --lightningcss-light: initial;
+  --lightningcss-dark: ;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lightningcss-light: ;
+    --lightningcss-dark: initial;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #111;
+  background: #fff;
+  margin: 0;
+}
+
+/*# sourceMappingURL=app_globals_0yg4wg8.css.map*/
